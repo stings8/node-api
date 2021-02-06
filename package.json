@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/stings8/node-api/issues"
   },
-  "homepage": "https://github.com/stings8/node-api#readme"
+  "homepage": "https://github.com/stings8/node-api#readme",
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
 }
