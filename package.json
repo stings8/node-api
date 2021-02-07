@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll"
   },
   "standard": {
     "env": ["jest"]
@@ -12,6 +12,7 @@
   "lint-staged": {
     "*.js": [
       "standard --fix",
+      "jest",
       "git add"
     ]
   },
